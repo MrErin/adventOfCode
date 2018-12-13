@@ -1,4 +1,4 @@
-frequencies = [
+frequency_changes = [
     -15,
     -17,
     -16,
