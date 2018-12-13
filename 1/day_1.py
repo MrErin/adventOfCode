@@ -1,4 +1,4 @@
-from my_data import frequency_changes
+from day_1_data import frequency_changes
 
 
 # part 1: get the frequency by adding each number together
