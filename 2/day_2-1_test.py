@@ -20,6 +20,7 @@ two = 0
 three = 0
 
 for box in test_data:
+    # Counter keeps track of how many times it encounters equivalent items
     count = Counter(box)
     if len([k for k, v in count.items() if v == 2]) > 0:
         two += 1
@@ -27,6 +28,3 @@ for box in test_data:
         three += 1
 
 print(f'checksum is {two * three}')
-
-
-# part2

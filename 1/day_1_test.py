@@ -7,9 +7,7 @@ stop = False
 for loop in range(0, 100):
     if stop == False:
         for change in test_data:
-            # print(f'the frequency is {frequency}')
             frequency += change
-            # print(f'after adding {change}, the new frequency is {frequency}')
             if frequency not in each_frequency:
                 each_frequency.append(frequency)
             else:
