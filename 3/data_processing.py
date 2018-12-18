@@ -1,4 +1,4 @@
-# Converting the input format is not at all part of the puzzle, but I like figuring out stuff like this, and its not like I have a shot at the leaderboards. Why not take the time to work on new skills/
+# Converting the input format is not at all part of the puzzle, but I like figuring out stuff like this, and its not like I have a shot at the leaderboards. Why not take the time to work on new skills?
 
 # desired output:
 # [
@@ -41,3 +41,8 @@ for item in input:
 output.close()
 input.close()
 print('done')
+
+
+# for the next time I have to do this, the below regex finds every set of numbers in a string
+# re.findall(r'-?\d+', s)
+# https://www.reddit.com/r/adventofcode/comments/a2lesz/2018_day_3_solutions/
