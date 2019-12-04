@@ -1,7 +1,5 @@
 import input from './data';
 
-// todo: comment solution to get a better grasp on what's happening.
-
 const getInput = () => {
   const instructionSets = input.split('\n');
   return instructionSets;
